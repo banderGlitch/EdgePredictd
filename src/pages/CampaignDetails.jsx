@@ -211,6 +211,7 @@ function challengeDetails() {
                 return
             }
         }
+        // 
 
         const amount = Number(bidAmount)
         if (!bidAmount || isNaN(amount) || amount <= 0) {
